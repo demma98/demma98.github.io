@@ -5,7 +5,6 @@ import Links from "./Links"
 
 const Paths = () => {
     return(
-        
         <HashRouter>
             <Routes>
                 <Route exact path='/' element={<Home></Home>}></Route>
