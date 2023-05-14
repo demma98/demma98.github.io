@@ -4,8 +4,12 @@ const Home = () => {
     return(
         <>
         <Navbar></Navbar>
-        im demma
-        i make stuff
+        <div className="home">
+            <br />
+            im demma
+            <br />
+            i make stuff
+        </div>
         </>
     )
 }

@@ -4,9 +4,25 @@ const Links = () => {
     return(
         <>
         <Navbar></Navbar>
-        https://www.youtube.com/channel/UCowbnKqSZiq_vQHn909U59Q
-        https://soundcloud.com/demma-98
-        https://github.com/demma98
+        <br />
+        <div className="links_container">
+            <div>
+                <a href="https://www.youtube.com/channel/UCowbnKqSZiq_vQHn909U59Q" className="link_youtube">youtube</a>
+            </div>
+            <br />
+            <div>
+                <a href="https://soundcloud.com/demma-98" className="link_soundcloud">soundcloud</a>
+            </div>
+            <br />
+            <div>
+                <a href="https://github.com/demma98" className="link_github">github</a>
+            </div>
+            <br />
+            <div>
+                <a href="https://twitter.com/demma_98" className="link_twitter">twitter</a>
+            </div>
+            <br />
+        </div>
         </>
     )
 }
