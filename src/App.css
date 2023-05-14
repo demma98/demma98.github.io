@@ -3,7 +3,7 @@
   font-size: 30px;
   text-align: center;
   font-family: Consoles;
-  background-color: #FF00FF;
+  background-image: linear-gradient(#FF00FF, #ff7aff);
 }
 
 .navbar {
@@ -21,8 +21,63 @@
   background-color :#ffb8ff;
 }
 
-.home{
+.home {
   color:#7f0099;
+}
+
+.gender {
+  width: 100vw;
+  align-items: center;
+}
+
+.trans_flag_cell{
+  width: fit-content;
+  padding: 20px;
+}
+.trans_flag {
+  width: 30vw;
+  height: 80pt;
+}
+.trans_flag_blue {
+  width: 100%;
+  height: 100%;
+  border-radius: 5% / 10%;
+  background-color: #5BCEFA;
+}
+.trans_flag_blank {
+  height: 5%;
+}
+.trans_flag_pink {
+  width: 100%;
+  height: 70%;
+  background-color: #F5ABB9;
+}
+.trans_flag_white {
+  width: 100%;
+  height: 60%;
+  background-color: #FFFFFF;
+}
+
+.pronouns_cell {
+  float: right;
+  padding: 20px;
+}
+.pronouns {
+  float: left;
+  padding: 20px;
+  color :#ffb8ff;
+  width: fit-content;
+  border-radius: 25px;
+  background-color:#7f0099;
+  transition: background-color 2s ease-out 100ms, color 2s ease-out 100ms;
+}
+.pronouns:hover {
+  color:#7f0099;
+  background-color:#c500c5;
+}
+
+.im_demma:hover {
+  color :#ffb8ff;
 }
 
 .link, .link_youtube, .link_soundcloud, .link_github, .link_twitter {
