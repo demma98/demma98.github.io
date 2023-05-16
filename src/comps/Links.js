@@ -22,6 +22,10 @@ const Links = () => {
                 <a href="https://twitter.com/demma_98" className="link_twitter">twitter</a>
             </div>
             <br />
+            <div>
+                <a href="https://www.reddit.com/user/demma98" className="link_reddit">reddit</a>
+            </div>
+            <br />
         </div>
         </>
     )

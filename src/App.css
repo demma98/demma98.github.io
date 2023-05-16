@@ -80,7 +80,7 @@
   color :#ffb8ff;
 }
 
-.link, .link_youtube, .link_soundcloud, .link_github, .link_twitter {
+.link, .link_youtube, .link_soundcloud, .link_github, .link_twitter, .link_reddit {
   padding: 15px;
   color:#7f0099;
   font-size: 30px;
@@ -88,7 +88,7 @@
   text-decoration: none;
   transition: background-color 2s ease-out 100ms, color 2s ease-out 100ms, font-size 1s ease-out 10ms;
 }
-.link:hover, .link_youtube:hover, .link_soundcloud:hover, .link_github:hover, .link_twitter:hover {
+.link:hover, .link_youtube:hover, .link_soundcloud:hover, .link_github:hover, .link_twitter:hover, .link_reddit:hover {
   font-size: 40px;
 }
 .link_youtube:hover{
@@ -106,4 +106,8 @@
 .link_twitter:hover{
   color:#F5F8FA;
   background-color:#1DA1F2;
+}
+.link_reddit:hover{
+  color:#ffffff;
+  background-color:#ff6314;
 }
