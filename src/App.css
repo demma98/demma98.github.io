@@ -86,7 +86,7 @@
   font-size: 30px;
   border-radius: 25px;
   text-decoration: none;
-  transition: background-color 2s ease-out 100ms, color 2s ease-out 100ms, font-size 1s ease-out 10ms;
+  transition: background-color 1s ease-out 16ms, color 1s ease-out 16ms, font-size 1s ease-out 16ms;
 }
 .link:hover, .link_youtube:hover, .link_soundcloud:hover, .link_github:hover, .link_twitter:hover, .link_reddit:hover {
   font-size: 40px;
