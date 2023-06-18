@@ -80,7 +80,7 @@
   color :#ffb8ff;
 }
 
-.link, .link_youtube, .link_soundcloud, .link_github, .link_twitter, .link_reddit {
+.link, .link_youtube, .link_soundcloud, .link_github, .link_twitter, .link_reddit, .link_twitch {
   padding: 15px;
   color:#7f0099;
   font-size: 30px;
@@ -88,7 +88,8 @@
   text-decoration: none;
   transition: background-color 1s ease-out 16ms, color 1s ease-out 16ms, font-size 1s ease-out 16ms;
 }
-.link:hover, .link_youtube:hover, .link_soundcloud:hover, .link_github:hover, .link_twitter:hover, .link_reddit:hover {
+.link:hover, .link_youtube:hover, .link_soundcloud:hover, .link_github:hover
+, .link_twitter:hover, .link_reddit:hover, .link_twitch:hover {
   font-size: 40px;
 }
 .link_youtube:hover{
@@ -110,4 +111,8 @@
 .link_reddit:hover{
   color:#ffffff;
   background-color:#ff6314;
+}
+.link_twitch:hover{
+  color:#ffffff;
+  background-color:#9146FF;
 }
