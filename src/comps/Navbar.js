@@ -12,8 +12,13 @@ const Navbar = () => {
                         </Link>
                     </th>
                     <th>
+                        <Link to='/inspirations' className="nav_link">
+                            🧠 people who inspire me
+                        </Link>
+                    </th>
+                    <th>
                         <Link to='/links' className="nav_link">
-                            🔗 links
+                            🌐 social media
                         </Link>
                     </th>
                 </tr>

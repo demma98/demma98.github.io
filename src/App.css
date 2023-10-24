@@ -80,7 +80,8 @@
   color :#ffb8ff;
 }
 
-.link, .link_youtube, .link_soundcloud, .link_github, .link_twitter, .link_reddit, .link_twitch {
+.link, .link_youtube, .link_soundcloud, .link_github, .link_twitter, .link_reddit, .link_twitch
+, .link_myspace {
   padding: 15px;
   color:#7f0099;
   font-size: 30px;
@@ -89,7 +90,7 @@
   transition: background-color 1s ease-out 16ms, color 1s ease-out 16ms, font-size 1s ease-out 16ms;
 }
 .link:hover, .link_youtube:hover, .link_soundcloud:hover, .link_github:hover
-, .link_twitter:hover, .link_reddit:hover, .link_twitch:hover {
+, .link_twitter:hover, .link_reddit:hover, .link_twitch:hover, .link_myspace:hover {
   font-size: 40px;
 }
 .link_youtube:hover{
@@ -115,4 +116,45 @@
 .link_twitch:hover{
   color:#ffffff;
   background-color:#9146FF;
+}
+
+.link_myspace:hover{
+  color:#000000;
+  background-color:#fdfdfd;
+}
+
+
+
+
+
+.inspitarion_box {
+  width: 50%;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.inspiration_image{
+  border-radius: 5%;
+}
+.inspitarion_title , .inspiration_title_voltaire{
+  width: 30%;
+  margin-left: 35%;
+  font-weight: bold;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+.inspiration_text{
+  width: 50%;
+  color: #b74fcc;
+  font-size: 20px;
+  margin-left: 25%;
+  border-radius: 5px;
+  font-family: Helvetica;
+  background-color:#ff85e5;
+}
+.inspiration_title_voltaire{
+  color: #050007;
+  font-family: Garamond;
+  background-color: #7f61c1;
 }
