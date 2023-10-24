@@ -127,24 +127,26 @@
 
 
 
-.inspitarion_box {
+.influence_box {
   width: 50%;
+  margin-left: 25%;
   padding: 5px;
   font-size: 15px;
   border-radius: 5px;
   text-decoration: none;
 }
-.inspiration_image{
+.influence_image{
   border-radius: 5%;
 }
-.inspitarion_title , .inspiration_title_voltaire{
-  width: 30%;
+.influence_title , .influence_title_voltaire{
+  width: 40%;
+  font-size: 30px;
   margin-left: 35%;
   font-weight: bold;
   border-radius: 5px;
   vertical-align: middle;
 }
-.inspiration_text{
+.influence_text{
   width: 50%;
   color: #b74fcc;
   font-size: 20px;
@@ -153,7 +155,7 @@
   font-family: Helvetica;
   background-color:#ff85e5;
 }
-.inspiration_title_voltaire{
+.influence_title_voltaire{
   color: #050007;
   font-family: Garamond;
   background-color: #7f61c1;
