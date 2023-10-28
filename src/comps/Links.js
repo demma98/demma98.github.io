@@ -30,6 +30,10 @@ const Links = () => {
                 <a href="https://www.twitch.tv/demma98" className="link_twitch">twitch</a>
             </div>
             <br />
+            <div>
+                <a href="https://myspace.com/demma_98" className="link_myspace">myspace</a>
+            </div>
+            <br />
         </div>
         </>
     )
