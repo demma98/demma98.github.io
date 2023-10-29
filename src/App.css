@@ -1,13 +1,17 @@
-.App {
-  height: 100vh;
-  font-size: 30px;
-  text-align: center;
-  font-family: Consoles;
-  background-size: 100% 100%;
+html, body, #root{
+  height: 100%;
+  background-attachment: fixed;
   background-image: linear-gradient(#FF00FF, #ff7aff);
 }
 
+.App {
+  font-size: 30px;
+  text-align: center;
+  font-family: Consoles;
+}
+
 .navbar {
+  position: 0%;
   align-self: center;
   font-family: Consoles;
 }
