@@ -85,8 +85,13 @@ html, body, #root{
   color :#ffb8ff;
 }
 
+.logo_cell{
+  width : 100%;
+  align-items: center;
+}
 .my_logo{
   padding: 20px;
+
 }
 
 .link, .link_youtube, .link_soundcloud, .link_github, .link_twitter, .link_reddit, .link_twitch
