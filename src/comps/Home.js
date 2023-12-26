@@ -9,6 +9,13 @@ const Home = () => {
             <table className="gender">
             <tbody>
             <tr>
+                <td>
+                    <div className="my_logo">
+                        <img src="/img/demma_98.png"></img>
+                    </div>
+                </td>
+            </tr>
+            <tr>
                 <td className="trans_flag_cell">
                     <div className="trans_flag">
                         <div className="trans_flag_blue">
