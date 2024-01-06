@@ -34,6 +34,10 @@ const Links = () => {
                 <a href="https://myspace.com/demma_98" className="link_myspace">myspace</a>
             </div>
             <br />
+            <div>
+                <a href="https://demma98.tumblr.com/" className="link_tumblr">tumblr</a>
+            </div>
+            <br />
         </div>
         </>
     )

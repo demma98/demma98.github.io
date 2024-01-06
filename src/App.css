@@ -94,7 +94,7 @@ html, body, #root{
   align-items: center;
 }
 
-.link, .link_youtube, .link_soundcloud, .link_github, .link_twitter, .link_reddit, .link_twitch
+.link, .link_youtube, .link_soundcloud, .link_github, .link_twitter, .link_reddit, .link_twitch, .link_tumblr
 , .link_myspace {
   padding: 15px;
   color:#7f0099;
@@ -135,6 +135,11 @@ html, body, #root{
 .link_myspace:hover{
   color:#000000;
   background-color:#fdfdfd;
+}
+
+.link_tumblr:hover{
+  color:#3f0034;
+  background-color:#e4009f;
 }
 
 
