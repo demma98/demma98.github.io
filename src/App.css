@@ -94,8 +94,9 @@ html, body, #root{
   align-items: center;
 }
 
-.link, .link_youtube, .link_soundcloud, .link_github, .link_twitter, .link_reddit, .link_twitch, .link_tumblr
-, .link_myspace {
+.link, .link_youtube, .link_soundcloud, .link_github
+, .link_twitter, .link_reddit, .link_twitch, .link_myspace
+, .link_tumblr {
   padding: 15px;
   color:#7f0099;
   font-size: 30px;
@@ -104,7 +105,8 @@ html, body, #root{
   transition: background-color 1s ease-out 16ms, color 1s ease-out 16ms, font-size 1s ease-out 16ms;
 }
 .link:hover, .link_youtube:hover, .link_soundcloud:hover, .link_github:hover
-, .link_twitter:hover, .link_reddit:hover, .link_twitch:hover, .link_myspace:hover {
+, .link_twitter:hover, .link_reddit:hover, .link_twitch:hover, .link_myspace:hover
+, .link_tumblr:hover {
   font-size: 40px;
 }
 .link_youtube:hover{
